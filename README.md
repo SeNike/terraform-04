@@ -112,6 +112,8 @@ module "vpc_dev" {
 1. Используя готовый yandex cloud terraform module и пример его вызова(examples/simple-bucket): https://github.com/terraform-yc-modules/terraform-yc-s3 .
 Создайте и не удаляйте для себя s3 бакет размером 1 ГБ(это бесплатно), он пригодится вам в ДЗ к 5 лекции.
 
+![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/6.1.png)
+
 ### Задание 7*
 
 1. Разверните у себя локально vault, используя docker-compose.yml в проекте.
