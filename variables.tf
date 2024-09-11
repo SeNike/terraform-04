@@ -28,7 +28,7 @@ variable "username" {
 
 variable "ssh_public_key" {
   type    = string
-  default = "~/.ssh/yckey.pub"
+  default = "~/.ssh/id_rsa.pub"
 }
 
 variable "packages" {
