@@ -140,7 +140,11 @@ output "vault_example" {
 Можно обратиться не к словарю, а конкретному ключу:
 terraform console: >nonsensitive(data.vault_generic_secret.vault_example.data.<имя ключа в секрете>)
 ```
+![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/7.png)
+
 5. Попробуйте самостоятельно разобраться в документации и записать новый секрет в vault с помощью terraform. 
+
+![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/7.1.png)
 
 ### Задание 8*
 Попробуйте самостоятельно разобраться в документаци и с помощью terraform remote state разделить root модуль на два отдельных root-модуля: создание VPC , создание ВМ . 
