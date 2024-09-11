@@ -58,6 +58,8 @@ module "vpc_dev" {
 4. Импортируйте всё обратно. Проверьте terraform plan. Значимых(!!) изменений быть не должно.
 Приложите список выполненных команд и скриншоты процессы.
 
+## ОТВЕТ: 
+
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/3.2-1.png)
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/3.2-2.png)
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/3.2-3.png)
@@ -97,6 +99,8 @@ module "vpc_dev" {
 
 Предоставьте код, план выполнения, результат из консоли YC.
 
+## ОТВЕТ: 
+
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/4.png)
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/4.1.png)
 
@@ -111,6 +115,8 @@ module "vpc_dev" {
 ### Задание 6*
 1. Используя готовый yandex cloud terraform module и пример его вызова(examples/simple-bucket): https://github.com/terraform-yc-modules/terraform-yc-s3 .
 Создайте и не удаляйте для себя s3 бакет размером 1 ГБ(это бесплатно), он пригодится вам в ДЗ к 5 лекции.
+
+## ОТВЕТ: 
 
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/6.1.png)
 
@@ -140,9 +146,13 @@ output "vault_example" {
 Можно обратиться не к словарю, а конкретному ключу:
 terraform console: >nonsensitive(data.vault_generic_secret.vault_example.data.<имя ключа в секрете>)
 ```
+## ОТВЕТ: 
+
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/7.png)
 
 5. Попробуйте самостоятельно разобраться в документации и записать новый секрет в vault с помощью terraform. 
+
+## ОТВЕТ: 
 
 ![img](https://github.com/SeNike/Study_24/blob/main/t-s-4/7.1.png)
 
