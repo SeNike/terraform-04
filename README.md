@@ -112,6 +112,22 @@ module "vpc_dev" {
 3. Используя оба модуля, создайте кластер example из одного хоста, а затем добавьте в него БД test и пользователя app. Затем измените переменную и превратите сингл хост в кластер из 2-х серверов.
 4. Предоставьте план выполнения и по возможности результат. Сразу же удаляйте созданные ресурсы, так как кластер может стоить очень дорого. Используйте минимальную конфигурацию.
 
+## ОТВЕТ: 
+
+Код проекта в отдельном [репозитории](https://github.com/SeNike/cluster-tf-04)
+
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/1.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/2.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/3.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/4.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/5.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/6.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/7.png)
+![img](https://github.com/SeNike/Study_24/blob/main/s-4-4/8.png)
+
+
+
+
 ### Задание 6*
 1. Используя готовый yandex cloud terraform module и пример его вызова(examples/simple-bucket): https://github.com/terraform-yc-modules/terraform-yc-s3 .
 Создайте и не удаляйте для себя s3 бакет размером 1 ГБ(это бесплатно), он пригодится вам в ДЗ к 5 лекции.
